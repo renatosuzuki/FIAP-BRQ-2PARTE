@@ -29,16 +29,14 @@ label {
   font-size: 18px;
 }
 
-.btn {
-  background-color: var(--acqua-green);
-  height: 60px;
-}
-
-.btn:hover {
-  background-color: var(--acqua-green);
-}
-
-a {
+#encontrar-button {
   text-decoration: none;
   color: var(--blue-grey);
+  background-color: var(--acqua-green);
+  height: 60px;
+  border-radius: 6px;
+}
+
+#encontrar-button:hover {
+  background-color: var(--acqua-green);
 }
