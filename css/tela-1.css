@@ -1,0 +1,44 @@
+:root {
+  --blue-grey: #324156;
+  --acqua-green: #0cdac3;
+}
+
+.form-control {
+  border-color: var(--acqua-green);
+  height: 45px;
+}
+
+.form-control:focus {
+  border-color: var(--acqua-green);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(12, 218, 195, 0.6);
+}
+
+.form-select {
+  border-color: var(--acqua-green);
+  height: 45px;
+}
+
+.form-select:focus {
+  border-color: var(--acqua-green);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(12, 218, 195, 0.6);
+}
+
+label {
+  font-size: 18px;
+}
+
+.btn {
+  background-color: var(--acqua-green);
+  height: 60px;
+}
+
+.btn:hover {
+  background-color: var(--acqua-green);
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-grey);
+}

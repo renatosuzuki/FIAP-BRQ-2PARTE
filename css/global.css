@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+@keyframes appearFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+main {
+  animation-name: appearFromLeft;
+  animation-duration: 1.5s;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--blue-grey);
+}

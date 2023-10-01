@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O carro perfeito para a sua viagem</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/tela-1.css" />
+    <link rel="stylesheet" href="css/navbar.style.css" />
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="index.html">
+          <img
+            src="assets/ion_car-sport.png"
+            alt="Logo"
+            width="50"
+            height="50"
+          />
+          Help Car</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link ms-2 fw-weight active" href="index.html"
+              >Encontrar o carro perfeito</a
+            >
+            <a class="nav-link ms-2" href="html/tela-3.html"
+              >Programa de Fidelidade</a
+            >
+            <a class="nav-link ms-2" href="html/tela-4.html"
+              >Viagem Compartilhada</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main
+      class="d-flex justify-content-center align-items-center flex-column mt-4 mb-4"
+    >
+      <h1 class="fs-1 fw-bold text-center">Vai viajar?</h1>
+      <h2 class="fs-4 text-center">
+        Passa as informações que indicamos o carro perfeito!
+      </h2>
+      <form class="w-50 mt-4">
+        <div class="mb-3">
+          <label for="InputLocal" class="form-label">Local da Viagem</label>
+          <input type="text" class="form-control" id="InputLocal" />
+        </div>
+        <div class="mb-3">
+          <label for="InputDias" class="form-label"
+            >Quantos dias passará viajando?</label
+          >
+          <input type="number" class="form-control" id="InputDias" />
+        </div>
+        <div class="mb-3">
+          <label for="InputPessoas" class="form-label"
+            >Quantidade de pessoas</label
+          >
+          <input type="number" class="form-control" id="InputPessoas" />
+        </div>
+        <div class="mb-3">
+          <label for="InputHospedagem" class="form-label"
+            >Tipo de hospedagem</label
+          >
+          <select class="form-select">
+            <option selected>Clique para selecionar</option>
+            <option value="1">Hotel</option>
+            <option value="2">Hostel</option>
+            <option value="3">Pousada</option>
+            <option value="4">Resort</option>
+            <option value="5">Hotel Fazenda</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="InputHospedagem" class="form-label"
+            >Vai levar equipamentos?</label
+          >
+          <select class="form-select">
+            <option value="1">Sim</option>
+            <option value="2" selected>Não</option>
+          </select>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center flex-column"
+        >
+          <button class="btn fw-bold">
+            <a href="html/tela-2.html"> Encontrar o carro perfeito! </a>
+          </button>
+        </div>
+      </form>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
