@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/tela-1.css" />
     <link rel="stylesheet" href="css/navbar.style.css" />
     <link rel="stylesheet" href="css/global.css" />
-    <link rel="icon" type="image/x-icon" href="/assets/ion_car-sport.png">
+    <link rel="icon" type="image/x-icon" href="/assets/ion_car-sport.png" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -69,7 +69,7 @@
           <label for="InputDias" class="form-label"
             >Quantos dias passará viajando?</label
           >
-          <input type="number" class="form-control" id="InputDias" />
+          <input type="number" min="0" class="form-control" id="InputDias" />
         </div>
         <div class="mb-3">
           <label for="InputPessoas" class="form-label"
@@ -102,9 +102,13 @@
         <div
           class="d-flex justify-content-center align-items-center flex-column"
         >
-        <a href="html/tela-2.html" id="encontrar-button" class="d-flex justify-content-center align-items-center text-center">
-          <span class="p-2 fw-bold"> Encontrar o carro perfeito! </span></a
-        >
+          <a
+            href="html/tela-2.html"
+            id="encontrar-button"
+            class="d-flex justify-content-center align-items-center text-center"
+          >
+            <span class="p-2 fw-bold"> Encontrar o carro perfeito! </span></a
+          >
         </div>
       </form>
     </main>
