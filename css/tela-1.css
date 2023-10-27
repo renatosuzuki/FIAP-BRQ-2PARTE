@@ -34,6 +34,7 @@ label {
   color: var(--blue-grey);
   background-color: var(--acqua-green);
   height: 60px;
+  width: 250px;
   border-radius: 6px;
 }
 
